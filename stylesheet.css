@@ -1,0 +1,272 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-tile: 'Berkshire Swash', serif;
+    --text-paragraph: 'Noto Sans', sans-serif;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(141, 189, 229);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+    .button-link{
+        appearance: button;
+        padding: 5px 10px;
+        background-color: rgb(141, 189, 229);
+        border: nome;
+        color: rgb(141, 189, 229);
+        text-decoration: none;
+
+    }
+}
+
+.logo {
+    width: 50px;
+}
+
+.cabecalho-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    margin-left: 8px;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.inicio {
+    height: 90vh;
+    width: 100%;
+    padding-top: 8vh;
+    background-image: url(Ministério\ de\ Mulheres/capa.jpeg);
+    
+}
+
+.titulo {
+    font-family: var(--text-tile);
+    font-size: 3.2rem;
+    color: rgb(165, 18, 172);
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.8rem;
+    font-family: var(--text-tile);
+}
+
+p {
+    font-family: var(--text-paragraph);
+    font-size: 1.2rem;
+}
+
+.sobre {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(133, 187, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-titulo {
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+.sobre-container {
+    height: 70vh;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sobre-imagem {
+    height: 50vh;
+    width: 45%;
+
+}
+
+.sobre-texto {
+    height: 50vh;
+    width: 45%;
+    padding-left: 10px;
+}
+
+.imagem-Mulheres {
+    height: 50vh;
+    width: 100%;
+    text-align: justify;
+}
+
+.Eventos {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(133, 187, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Eventos-titulo {
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding-left: 10px;
+
+}
+
+.Eventos-container {
+    height: 95vh;
+    width: 95%;
+    background-color: rgb(204, 169, 235);
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.Eventos-card {
+    width: 24%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.901);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.Eventos-card-card {
+    text-align: center;
+}
+
+.Eventos-card-imagem {
+    width: 90%;
+}
+
+.TPM2 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.META {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(145, 187, 221);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.sub-title{
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+
+.frame-video {
+    margin-top: 50px;
+}
+
+.Local {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(92, 161, 218);
+}
+
+.Local-titulo {
+    margin-top: 30px;
+    background-color: rgb(92, 161, 218);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Local-Maps-imagem {
+    width: 40%;
+}
+
+.Bandeira{
+    width: 100%;
+}
+
+.Local-Maps {
+    width: 90%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.844);
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Contatos {
+    width: 100%;
+    background-color: rgb(238, 247, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 30px;
+}
+
+.lista-contatos{
+    list-style: none;
+    padding-top: 30px;
+
+    .lista-contatos-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--text-paragraph);
+        cursor: pointer;
+
+       .list-item-text{
+            padding-left: 8px;
+        }
+    }
+}
+
+.rodape{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(92, 161, 218);
+
+    .rodape-texto{
+        text-align: center;
+    }
+
+    .rodape-link{
+        &:visited{
+            text-decoration: none;
+
+            color: black;
+        }
+    }
+}
